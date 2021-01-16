@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/programs/praktica/calculator/calc.cpp
+iostream
+-
+calc.h
+C:/programs/praktica/calculator/calc.h
+
+C:/programs/praktica/calculator/calc.h
+string
+-
+fstream
+-
+vector
+-
+stack.h
+C:/programs/praktica/calculator/stack.h
+sstream
+-
+cassert
+-
+
+C:/programs/praktica/calculator/main.cpp
+iostream
+-
+calc.h
+C:/programs/praktica/calculator/calc.h
+stack.h
+C:/programs/praktica/calculator/stack.h
+
+C:/programs/praktica/calculator/stack.h
+cassert
+-
+initializer_list
+-
+
